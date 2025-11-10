@@ -1,0 +1,62 @@
+body{
+    justify-content: center;
+    background-image: url(pic/maroon-colour-combination.jpg);
+    background-size: cover;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-btn{
+    display: none;
+    width: 270px;
+    border: solid black;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    background-color: gold;
+
+}
+#tap{
+    display: none;
+}
+.btn{
+    position: absolute;
+    padding: 10px;
+    border: solid black;
+    background-color: aqua;
+    top: 10px;
+}
+#tap:checked +.btn +.menu-btn{
+    display: inline;
+}
+.attendance{
+    border: 5px solid white;
+    position: absolute;
+    top: 250px;
+    width: 180px;
+    height: 180px;
+      display: flex;
+    flex-wrap: nowrap;
+     border-radius: 50%;
+    
+}
+.employee{
+    border: solid white;
+    position: absolute;
+    top: 250px;
+    width: 180px;
+    height: 180px;
+    left: 195px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    border-radius: 50%;
+}
+img{
+    width: 180px;
+     border-radius: 50%;
+     border: 5px solid white;
+}

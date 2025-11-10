@@ -1,0 +1,100 @@
+body{
+     justify-content: center;
+    background-image: url(pic/maroon-colour-combination.jpg);
+    background-size: cover;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-btn{
+    display: none;
+    width: 270px;
+    border: solid black;
+    padding: 10px;
+    position: absolute;
+    left: 30px;
+    background-color: gold;
+
+}
+#tap{
+    display: none;
+}
+.btn{
+    position: absolute;
+    padding: 10px;
+    border: solid black;
+    background-color: aqua;
+    
+}
+#tap:checked +.btn +.menu-btn{
+    display: inline;
+}
+    
+
+.mother {
+    border: solid gold;
+    margin: 50px;
+    width: 280px;
+    height: 150px;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    top:40px ;
+    text-align: center;
+    top: 130px;
+    left: -10px;
+    background-color: gold;
+    
+
+}
+input{
+    margin: 5px;
+
+}
+.img{
+    border:solid black;
+    position:relative;
+    top:80px;
+    left: 80px;
+    background-color: aqua;
+    width: 215px;
+    height: 215px;
+ 
+}
+.msg{
+    color: gold;
+    position: absolute;
+    left: 140px;
+    top:100px;
+
+}
+.back{
+    box-shadow: 2px 2px 8px rgb(41, 1, 1);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(123, 3, 3);
+    position: relative;
+    top: 180px;
+    left: 170px;
+    color: rgb(255, 111, 0);
+    text-decoration: none;
+    
+}
+.done{
+    position: relative;
+    left: 170px;
+    top: 100px;
+    color: yellow;
+}
+.download-btn{
+    border: solid black;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    padding:5px;
+    border-radius: 5px;
+    background-color: rgb(63, 2, 2);
+    color: white;
+}

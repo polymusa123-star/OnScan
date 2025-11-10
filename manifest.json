@@ -1,0 +1,27 @@
+{
+  "background_color": "#590101",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "OnScan",
+  "orientation": "any",
+  "scope": "/Onscan.com",
+  "short_name": "Scan",
+  "start_url": "/Onscan.com",
+  "theme_color": "#e4fb0e",
+  "icons": [
+    {
+      "src": "/favicon/favicon.ico",
+      "type": "image/x-icon",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "lang": "en",
+  "id": "/Onscan.com"
+}

@@ -1,0 +1,80 @@
+body{
+    
+    justify-content: center;
+    background-image: url(pic/maroon-colour-combination.jpg);
+    position: absolute;
+    width: auto;
+    height: auto;
+    }
+    th{
+        border: solid white;
+        font-size: 10px;
+        justify-content: space-evenly;
+        background-color: brown;
+        width: 150px;
+        
+    
+    }
+    td{
+        border: solid rgb(29, 28, 28);
+        font-size: 10px;
+
+    }
+    table{
+        border: solid yellow;
+        margin-top:50px;
+        background-color: aliceblue;
+        position: relative;
+        width: auto;
+    }
+   .btn{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left:5px ;
+    background-color: rgb(227, 19, 19);
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.menu-btn{
+    display: none;
+    width: 270px;
+    border: solid black;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    background-color: gold;
+
+}
+#tap{
+    display: none;
+}
+.btn{
+    position: absolute;
+    padding: 10px;
+    border: solid black;
+    background-color: aqua;
+    top: 10px;
+}
+#tap:checked +.btn +.menu-btn{
+    display: inline;
+}
+
+.but{
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
+.download{
+    position: relative;
+    top: 55px;
+    left: 120px;
+    
+}
+.download-btn{
+    font-size: 10px;
+}
